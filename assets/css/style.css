@@ -1,0 +1,81 @@
+header {
+    text-align:center;
+    width:100%;
+    background-color: #19273d;
+    color:white;
+}
+
+h1 {
+    font-size: 60px;
+    padding:20px;
+}
+
+button {
+    background: linear-gradient(90deg, rgba(172,102,52,1) 0%, rgba(209,187,125,1) 50%, rgba(172,102,52,1) 100%);
+    padding:10px;
+    border:1px solid #7c7788;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+td {
+    padding-top:5px;
+    font-weight: bold;
+}
+
+.hidden {
+    display: none;
+}
+.container {
+    display:flex;
+    column-gap: 50px;
+    background-image: linear-gradient(white,#546070);
+}
+#timer, #wordEntry {
+    height:250px; 
+    margin:20px; 
+    border:3px solid white;
+    border-radius: 15px;
+    padding:10px;
+    background: linear-gradient(90deg, rgba(209,182,128,1) 0%, rgba(233,221,149,1) 50%, rgba(209,182,128,1) 100%);
+
+}
+
+#wordEntry {
+    flex:2;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-wrap: wrap;
+}
+
+#timer {
+    flex:1;
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#word {
+    letter-spacing: 10px;    
+    text-align: center;
+    font-size: 65px;
+    flex-basis: 100%;
+}
+
+#message {
+    text-align: center;
+    margin:25px;
+}
+
+#seconds-remaining {
+    padding:30px;
+    background-color: #19273d;
+    color:white;
+    flex-basis: 100%;
+    text-align: center;
+}
+
+#remaining {
+    font-size: 60px;
+}
